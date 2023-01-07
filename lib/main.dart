@@ -33,6 +33,7 @@ class _MyAppState extends State<MyApp> {
 
   @override
   void initState() {
+    print("main.dart -> initState();");
     super.initState();
     _appStateNotifier = AppStateNotifier();
     _router = createRouter(_appStateNotifier);
